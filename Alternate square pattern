@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    int N=1;
+    int i,j,k;
+    for(i=1;i<=n;i++){
+        if(i%2!=0){
+            for(j=1;j<=5;j++){
+                cout<<N<<" ";
+                N++;
+            }
+            cout<<"\n";
+        }
+        else{
+            for(k=1;k<=5;k++){
+                cout<<N+5-k<<" ";
+            }
+            cout<<"\n";
+            N=N+5;
+        }
+        
+        }
+	// your code goes here
+	return 0;
+}
