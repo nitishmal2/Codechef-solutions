@@ -1,0 +1,7 @@
+l=[]
+for i in range(0,3):
+    e=int(input())
+    l.append(e)
+r=sorted(l)
+print(r[-2])
+    
